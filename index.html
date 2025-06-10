@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박해진 개인소개</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2128 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #58a6ff, #7c3aed, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .skill-badge {
+            background: linear-gradient(135deg, #21262d, #30363d);
+            border: 1px solid #373e47;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+        .skill-badge:hover {
+            border-color: #58a6ff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(88, 166, 255, 0.15);
+        }
+        .glow-effect {
+            box-shadow: 0 0 30px rgba(88, 166, 255, 0.1);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+    <div class="w-full" style="width: 1280px; min-height: 720px;">
+        <!-- Main Container -->
+        <div class="relative h-screen flex flex-col justify-center items-center p-16 text-white">
+            
+            <!-- Background Pattern -->
+            <div class="absolute inset-0 opacity-5">
+                <div class="grid grid-cols-8 gap-4 h-full w-full">
+                    <div class="bg-blue-500 rounded"></div>
+                    <div class="bg-purple-500 rounded"></div>
+                    <div class="bg-pink-500 rounded"></div>
+                    <div class="bg-blue-500 rounded"></div>
+                    <div class="bg-purple-500 rounded"></div>
+                    <div class="bg-pink-500 rounded"></div>
+                    <div class="bg-blue-500 rounded"></div>
+                    <div class="bg-purple-500 rounded"></div>
+                </div>
+            </div>
+
+            <!-- Header Section -->
+            <div class="text-center z-10 mb-12">
+                <div class="mb-6">
+                    <i class="fas fa-fire text-6xl text-orange-400 pulse-animation mb-4"></i>
+                </div>
+                <h1 class="text-8xl font-bold gradient-text mb-4">박해진</h1>
+                <h2 class="text-2xl font-medium text-gray-300 mb-2">PARK HAEJIN</h2>
+                <div class="h-1 w-32 mx-auto bg-gradient-to-r from-blue-500 to-purple-500 rounded mb-8"></div>
+                <p class="text-xl text-gray-400 font-light">건양대학교 소방방재공학과</p>
+                <p class="text-lg text-gray-500">Konyang University Fire Protection Engineering</p>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="grid grid-cols-4 gap-6 w-full max-w-5xl z-10">
+                <!-- 재난안전 -->
+                <div class="skill-badge rounded-lg p-6 text-center glow-effect">
+                    <i class="fas fa-shield-alt text-3xl text-red-400 mb-3"></i>
+                    <h3 class="text-lg font-semibold text-white mb-2">재난·화재 안전</h3>
+                    <p class="text-sm text-gray-400">Fire Prevention</p>
+                    <p class="text-sm text-gray-400">Safety Engineering</p>
+                </div>
+
+                <!-- PLC 자동제어 -->
+                <div class="skill-badge rounded-lg p-6 text-center glow-effect">
+                    <i class="fas fa-microchip text-3xl text-blue-400 mb-3"></i>
+                    <h3 class="text-lg font-semibold text-white mb-2">PLC 자동제어</h3>
+                    <p class="text-sm text-gray-400">MP Studio</p>
+                    <p class="text-sm text-gray-400">Sensor Control</p>
+                </div>
+
+                <!-- AI & 프로그래밍 -->
+                <div class="skill-badge rounded-lg p-6 text-center glow-effect">
+                    <i class="fas fa-brain text-3xl text-purple-400 mb-3"></i>
+                    <h3 class="text-lg font-semibold text-white mb-2">AI & 프로그래밍</h3>
+                    <p class="text-sm text-gray-400">Python / YOLO</p>
+                    <p class="text-sm text-gray-400">Streamlit</p>
+                </div>
+
+                <!-- 연구개발 -->
+                <div class="skill-badge rounded-lg p-6 text-center glow-effect">
+                    <i class="fas fa-flask text-3xl text-green-400 mb-3"></i>
+                    <h3 class="text-lg font-semibold text-white mb-2">연구개발</h3>
+                    <p class="text-sm text-gray-400">Capstone Design</p>
+                    <p class="text-sm text-gray-400">Academic Research</p>
+                </div>
+            </div>
+
+            <!-- Bottom Quote -->
+            <div class="mt-16 text-center z-10">
+                <blockquote class="text-lg text-gray-300 italic font-light max-w-2xl">
+                    "기술을 통해 사람의 생명을 보호하고,<br>
+                    예측 가능한 위험 요소를 사전에 제어하는<br>
+                    <span class="gradient-text font-semibold">스마트 안전 시스템 전문가</span>"
+                </blockquote>
+            </div>
+
+            <!-- Code-like decoration -->
+            <div class="absolute top-8 left-8 text-xs text-gray-600 font-mono">
+                <span class="text-blue-400">class</span> <span class="text-yellow-400">SafetyEngineer</span> {<br>
+                &nbsp;&nbsp;<span class="text-green-400">name</span>: <span class="text-orange-400">"박해진"</span><br>
+                &nbsp;&nbsp;<span class="text-green-400">major</span>: <span class="text-orange-400">"소방방재공학"</span><br>
+                }
+            </div>
+
+            <!-- Version info (VS Studio style) -->
+            <div class="absolute bottom-8 right-8 text-xs text-gray-600">
+                <span class="text-blue-400">Portfolio v2024.1</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기술 역량</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2128 100%);
+        }
+        .mono-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #58a6ff, #7c3aed, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .tech-card {
+            background: linear-gradient(135deg, #21262d, #30363d);
+            border: 1px solid #373e47;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+        .tech-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 35px rgba(88, 166, 255, 0.2);
+        }
+        .highlight-section {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-left: 4px solid #58a6ff;
+        }
+        .skill-chip {
+            background: linear-gradient(135deg, #374151, #4b5563);
+            border: 1px solid #6b7280;
+            transition: all 0.2s ease;
+        }
+        .skill-chip:hover {
+            border-color: #58a6ff;
+            background: linear-gradient(135deg, #4b5563, #6b7280);
+        }
+        .pulse-glow {
+            animation: pulseGlow 2s ease-in-out infinite alternate;
+        }
+        @keyframes pulseGlow {
+            from { box-shadow: 0 0 20px rgba(88, 166, 255, 0.3); }
+            to { box-shadow: 0 0 30px rgba(88, 166, 255, 0.6); }
+        }
+        .code-terminal {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            border: 1px solid #334155;
+        }
+        .type-animation {
+            animation: typing 3s steps(40, end) infinite;
+            border-right: 2px solid #58a6ff;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            50% { width: 100%; }
+            to { width: 0; }
+        }
+        .floating-tech {
+            animation: floatTech 4s ease-in-out infinite;
+        }
+        @keyframes floatTech {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(-8px) rotate(2deg); }
+            75% { transform: translateY(-4px) rotate(-1deg); }
+        }
+        .circuit-pattern {
+            background-image: 
+                radial-gradient(circle at 25px 25px, #374151 2px, transparent 2px),
+                radial-gradient(circle at 75px 75px, #374151 2px, transparent 2px);
+            background-size: 100px 100px;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+    <div class="w-full" style="width: 1280px; min-height: 720px;">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 circuit-pattern"></div>
+        
+        <!-- Main Container -->
+        <div class="relative min-h-screen p-12 text-white">
+            
+            <!-- Header -->
+            <div class="mb-8">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-microchip text-4xl text-cyan-400 mr-4 floating-tech"></i>
+                    <h1 class="text-5xl font-bold gradient-text">기술 역량</h1>
+                    <div class="ml-auto flex items-center space-x-2">
+                        <div class="w-3 h-3 bg-green-400 rounded-full pulse-glow"></div>
+                        <span class="text-sm text-gray-400 mono-font">READY</span>
+                    </div>
+                </div>
+                <div class="h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-500 rounded"></div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="grid grid-cols-12 gap-8 h-full">
+                
+                <!-- Left Section - PLC & Control -->
+                <div class="col-span-6 space-y-6">
+                    <div class="tech-card rounded-xl p-6 h-full">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-cogs text-3xl text-orange-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">PLC 및 자동제어</h2>
+                        </div>
+
+                        <!-- MP Studio Section -->
+                        <div class="mb-8">
+                            <div class="flex items-center mb-4">
+                                <i class="fas fa-desktop text-xl text-blue-400 mr-3"></i>
+                                <h3 class="text-xl font-semibold text-blue-300">MP Studio 활용</h3>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3 mb-4">
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <i class="fas fa-edit text-green-400 mr-2"></i>
+                                    <span class="text-sm">프로그래밍</span>
+                                </div>
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <i class="fas fa-bug text-red-400 mr-2"></i>
+                                    <span class="text-sm">디버깅</span>
+                                </div>
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <i class="fas fa-project-diagram text-purple-400 mr-2"></i>
+                                    <span class="text-sm">시뮬레이션</span>
+                                </div>
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <i class="fas fa-download text-yellow-400 mr-2"></i>
+                                    <span class="text-sm">다운로드</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sensor Control -->
+                        <div class="mb-8">
+                            <div class="flex items-center mb-4">
+                                <i class="fas fa-wifi text-xl text-green-400 mr-3"></i>
+                                <h3 class="text-xl font-semibold text-green-300">센서 기반 제어</h3>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between bg-gray-800 rounded-lg p-3">
+                                    <span class="text-gray-300">무게 센서</span>
+                                    <span class="text-blue-400 mono-font">Load Cell</span>
+                                </div>
+                                <div class="flex items-center justify-between bg-gray-800 rounded-lg p-3">
+                                    <span class="text-gray-300">압력 센서</span>
+                                    <span class="text-green-400 mono-font">Pressure</span>
+                                </div>
+                                <div class="flex items-center justify-between bg-gray-800 rounded-lg p-3">
+                                    <span class="text-gray-300">근접 센서</span>
+                                    <span class="text-purple-400 mono-font">Proximity</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Output Devices -->
+                        <div class="highlight-section rounded-lg p-4">
+                            <h4 class="text-lg font-semibold text-white mb-3">출력 장치 제어</h4>
+                            <div class="flex items-center space-x-6">
+                                <div class="text-center">
+                                    <i class="fas fa-th text-2xl text-red-400 mb-2"></i>
+                                    <p class="text-xs text-gray-300">7세그먼트</p>
+                                </div>
+                                <div class="text-center">
+                                    <i class="fas fa-volume-up text-2xl text-yellow-400 mb-2"></i>
+                                    <p class="text-xs text-gray-300">스피커</p>
+                                </div>
+                                <div class="text-center">
+                                    <i class="fas fa-lightbulb text-2xl text-orange-400 mb-2"></i>
+                                    <p class="text-xs text-gray-300">LED</p>
+                                </div>
+                                <div class="text-center">
+                                    <i class="fas fa-power-off text-2xl text-red-500 mb-2"></i>
+                                    <p class="text-xs text-gray-300">차단장치</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Section - AI & Programming -->
+                <div class="col-span-6 space-y-6">
+                    <div class="tech-card rounded-xl p-6 h-full">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-brain text-3xl text-purple-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">AI & 프로그래밍</h2>
+                        </div>
+
+                        <!-- Python Section -->
+                        <div class="mb-8">
+                            <div class="flex items-center mb-4">
+                                <i class="fab fa-python text-xl text-yellow-400 mr-3"></i>
+                                <h3 class="text-xl font-semibold text-yellow-300">Python 생태계</h3>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3 mb-4">
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <span class="text-sm text-blue-400">NumPy</span>
+                                </div>
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <span class="text-sm text-green-400">Pandas</span>
+                                </div>
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <span class="text-sm text-purple-400">OpenCV</span>
+                                </div>
+                                <div class="skill-chip rounded-lg px-3 py-2 text-center">
+                                    <span class="text-sm text-red-400">Matplotlib</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI Technologies -->
+                        <div class="mb-8">
+                            <div class="flex items-center mb-4">
+                                <i class="fas fa-eye text-xl text-cyan-400 mr-3"></i>
+                                <h3 class="text-xl font-semibold text-cyan-300">AI 기술 스택</h3>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="bg-gray-800 rounded-lg p-4">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="font-semibold text-orange-400">YOLO</span>
+                                        <span class="text-xs text-gray-400">Object Detection</span>
+                                    </div>
+                                    <p class="text-sm text-gray-300">실시간 객체 인식 및 추적</p>
+                                </div>
+                                <div class="bg-gray-800 rounded-lg p-4">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="font-semibold text-red-400">Streamlit</span>
+                                        <span class="text-xs text-gray-400">Web Framework</span>
+                                    </div>
+                                    <p class="text-sm text-gray-300">AI 모델 웹 애플리케이션화</p>
+                                </div>
+                                <div class="bg-gray-800 rounded-lg p-4">
+                                    <div class="flex items-center justify-between mb-2">
+                                        <span class="font-semibold text-green-400">Genspark</span>
+                                        <span class="text-xs text-gray-400">AI Assistant</span>
+                                    </div>
+                                    <p class="text-sm text-gray-300">AI 기반 코딩 자동화</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Code Terminal -->
+                        <div class="code-terminal rounded-lg p-4">
+                            <div class="flex items-center mb-3">
+                                <div class="flex space-x-2 mr-4">
+                                    <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                                    <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                                    <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                                </div>
+                                <span class="text-xs text-gray-400 mono-font">terminal</span>
+                            </div>
+                            <div class="mono-font text-sm">
+                                <div class="text-green-400">$ python detect_safety.py</div>
+                                <div class="text-blue-400">Loading YOLO model...</div>
+                                <div class="text-yellow-400">Detecting multiple riders...</div>
+                                <div class="text-red-400">⚠️ Safety violation detected!</div>
+                                <div class="text-purple-400">Activating prevention system...</div>
+                                <div class="text-green-400 type-animation overflow-hidden whitespace-nowrap">✅ System protected successfully</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Technology Icons -->
+            <div class="absolute bottom-8 left-12 right-12">
+                <div class="flex justify-center space-x-8 opacity-30">
+                    <i class="fab fa-python text-3xl text-yellow-400"></i>
+                    <i class="fas fa-microchip text-3xl text-blue-400"></i>
+                    <i class="fas fa-robot text-3xl text-green-400"></i>
+                    <i class="fas fa-wifi text-3xl text-purple-400"></i>
+                    <i class="fas fa-code text-3xl text-orange-400"></i>
+                    <i class="fas fa-brain text-3xl text-red-400"></i>
+                </div>
+            </div>
+
+            <!-- Code decoration -->
+            <div class="absolute top-8 right-8 text-xs text-gray-600 mono-font">
+                <span class="text-gray-500">/* 기술로 안전을 구현 */</span><br>
+                <span class="text-blue-400">import</span> safety <span class="text-blue-400">from</span> <span class="text-orange-400">'technology'</span><br>
+                <span class="text-blue-400">const</span> <span class="text-yellow-400">innovation</span> = <span class="text-orange-400">'PLC + AI'</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미래 비전 및 목표</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2128 100%);
+        }
+        .mono-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #58a6ff, #7c3aed, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .future-card {
+            background: linear-gradient(135deg, #21262d, #30363d);
+            border: 1px solid #373e47;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+        .future-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(88, 166, 255, 0.2);
+        }
+        .vision-section {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-left: 4px solid #10b981;
+        }
+        .career-path {
+            background: linear-gradient(135deg, #7c2d12, #ea580c);
+            border-left: 4px solid #f59e0b;
+        }
+        .target-company {
+            background: linear-gradient(135deg, #1e3a8a, #3730a3);
+            border: 1px solid #6366f1;
+            transition: all 0.3s ease;
+        }
+        .target-company:hover {
+            border-color: #8b5cf6;
+            background: linear-gradient(135deg, #3730a3, #5b21b6);
+            transform: scale(1.05);
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.5);
+        }
+        .timeline-line {
+            position: absolute;
+            left: 5px;
+            top: 1.5rem;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #10b981, transparent);
+        }
+        .skill-roadmap {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            border: 1px solid #334155;
+        }
+        .goal-metric {
+            background: linear-gradient(135deg, #374151, #4b5563);
+            border: 1px solid #6b7280;
+            transition: all 0.2s ease;
+        }
+        .goal-metric:hover {
+            border-color: #10b981;
+            background: linear-gradient(135deg, #065f46, #047857);
+        }
+        .floating-rocket {
+            animation: floatRocket 4s ease-in-out infinite;
+        }
+        @keyframes floatRocket {
+            0%, 100% { transform: translateY(0px) rotate(-5deg); }
+            25% { transform: translateY(-12px) rotate(5deg); }
+            75% { transform: translateY(-6px) rotate(-2deg); }
+        }
+        .progress-glow {
+            animation: progressGlow 3s ease-in-out infinite alternate;
+        }
+        @keyframes progressGlow {
+            from { box-shadow: 0 0 20px rgba(16, 185, 129, 0.3); }
+            to { box-shadow: 0 0 35px rgba(16, 185, 129, 0.7); }
+        }
+        .company-logo {
+            background: linear-gradient(135deg, #1f2937, #374151);
+            border: 2px solid #4b5563;
+            transition: all 0.3s ease;
+        }
+        .company-logo:hover {
+            border-color: #f59e0b;
+            background: linear-gradient(135deg, #92400e, #d97706);
+        }
+        .vision-statement {
+            background: linear-gradient(135deg, #065f46, #047857);
+            border: 1px solid #10b981;
+            position: relative;
+            overflow: hidden;
+        }
+        .vision-statement::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            animation: shine 3s infinite;
+        }
+        @keyframes shine {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+        .growth-arrow {
+            animation: growthMove 2s ease-in-out infinite;
+        }
+        @keyframes growthMove {
+            0%, 100% { transform: translateX(0px); }
+            50% { transform: translateX(8px); }
+        }
+        .tech-constellation {
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(245, 158, 11, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+        }
+        .career-level {
+            background: linear-gradient(90deg, #059669, #10b981);
+            height: 6px;
+            border-radius: 3px;
+            animation: levelGrow 2s ease-out forwards;
+        }
+        @keyframes levelGrow {
+            from { width: 0%; }
+            to { width: var(--level); }
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+    <div class="w-full" style="width: 1280px; min-height: 720px;">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 tech-constellation"></div>
+        
+        <!-- Main Container -->
+        <div class="relative min-h-screen p-12 text-white">
+            
+            <!-- Header -->
+            <div class="mb-8">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-rocket text-4xl text-green-400 mr-4 floating-rocket"></i>
+                    <h1 class="text-5xl font-bold gradient-text">미래 비전 및 목표</h1>
+                    <div class="ml-auto flex items-center space-x-3">
+                        <div class="w-3 h-3 bg-green-400 rounded-full progress-glow"></div>
+                        <span class="text-sm text-gray-400 mono-font">VISION.2030</span>
+                    </div>
+                </div>
+                <div class="h-1 w-36 bg-gradient-to-r from-green-500 via-yellow-500 to-purple-500 rounded"></div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="grid grid-cols-12 gap-8 h-full">
+                
+                <!-- Left Section - Vision & Career Path -->
+                <div class="col-span-8 space-y-6">
+                    
+                    <!-- Vision Statement -->
+                    <div class="vision-statement rounded-xl p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-eye text-2xl text-green-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">핵심 비전</h2>
+                        </div>
+                        <div class="text-lg text-white leading-relaxed">
+                            <span class="text-green-300 font-semibold">기술을 통해 사람의 생명을 보호하고</span>, 
+                            예측 가능한 위험 요소를 사전에 제어할 수 있는 
+                            <span class="text-yellow-300 font-semibold">스마트 안전 시스템 전문가</span>로 성장
+                        </div>
+                    </div>
+
+                    <!-- Career Development Path -->
+                    <div class="career-path rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-route text-2xl text-orange-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">커리어 발전 로드맵</h2>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-6">
+                            <!-- Current Stage -->
+                            <div class="relative">
+                                <div class="future-card rounded-lg p-4">
+                                    <div class="text-center mb-3">
+                                        <i class="fas fa-graduation-cap text-3xl text-blue-400 mb-2"></i>
+                                        <h3 class="font-bold text-blue-300">현재</h3>
+                                        <p class="text-xs text-gray-400">2024</p>
+                                    </div>
+                                    <ul class="text-sm space-y-1 text-gray-300">
+                                        <li>• 소방방재공학 전공</li>
+                                        <li>• PLC/AI 기술 습득</li>
+                                        <li>• 연구 프로젝트 완료</li>
+                                    </ul>
+                                    <div class="mt-3">
+                                        <div class="text-xs text-gray-400 mb-1">진행률</div>
+                                        <div class="bg-gray-700 rounded-full h-2">
+                                            <div class="career-level rounded-full" style="--level: 75%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute -right-3 top-1/2 transform -translate-y-1/2">
+                                    <i class="fas fa-arrow-right text-xl text-green-400 growth-arrow"></i>
+                                </div>
+                            </div>
+
+                            <!-- Short Term -->
+                            <div class="relative">
+                                <div class="future-card rounded-lg p-4">
+                                    <div class="text-center mb-3">
+                                        <i class="fas fa-briefcase text-3xl text-green-400 mb-2"></i>
+                                        <h3 class="font-bold text-green-300">단기목표</h3>
+                                        <p class="text-xs text-gray-400">2025-2026</p>
+                                    </div>
+                                    <ul class="text-sm space-y-1 text-gray-300">
+                                        <li>• 안전 관련 자격증</li>
+                                        <li>• 공기업 입사</li>
+                                        <li>• 현장 경험 축적</li>
+                                    </ul>
+                                    <div class="mt-3">
+                                        <div class="text-xs text-gray-400 mb-1">준비도</div>
+                                        <div class="bg-gray-700 rounded-full h-2">
+                                            <div class="career-level rounded-full" style="--level: 60%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute -right-3 top-1/2 transform -translate-y-1/2">
+                                    <i class="fas fa-arrow-right text-xl text-green-400 growth-arrow"></i>
+                                </div>
+                            </div>
+
+                            <!-- Long Term -->
+                            <div class="future-card rounded-lg p-4">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-star text-3xl text-purple-400 mb-2"></i>
+                                    <h3 class="font-bold text-purple-300">장기목표</h3>
+                                    <p class="text-xs text-gray-400">2027-2030</p>
+                                </div>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 안전시스템 전문가</li>
+                                    <li>• 기술 리더십</li>
+                                    <li>• 혁신 프로젝트 주도</li>
+                                </ul>
+                                <div class="mt-3">
+                                    <div class="text-xs text-gray-400 mb-1">비전</div>
+                                    <div class="bg-gray-700 rounded-full h-2">
+                                        <div class="career-level rounded-full" style="--level: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Development Roadmap -->
+                    <div class="skill-roadmap rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-layer-group text-2xl text-cyan-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">기술 발전 계획</h2>
+                        </div>
+
+                        <div class="grid grid-cols-4 gap-4">
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-shield-alt text-2xl text-red-400 mb-2"></i>
+                                <h4 class="font-semibold text-red-300 mb-1">안전공학</h4>
+                                <p class="text-xs text-gray-400">화재예방 · 위험평가</p>
+                            </div>
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-robot text-2xl text-blue-400 mb-2"></i>
+                                <h4 class="font-semibold text-blue-300 mb-1">자동화</h4>
+                                <p class="text-xs text-gray-400">PLC · IoT · 센서</p>
+                            </div>
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-brain text-2xl text-purple-400 mb-2"></i>
+                                <h4 class="font-semibold text-purple-300 mb-1">AI 기술</h4>
+                                <p class="text-xs text-gray-400">머신러닝 · 예측분석</p>
+                            </div>
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-users text-2xl text-green-400 mb-2"></i>
+                                <h4 class="font-semibold text-green-300 mb-1">리더십</h4>
+                                <p class="text-xs text-gray-400">팀관리 · 프로젝트</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Section - Target Companies -->
+                <div class="col-span-4 space-y-6">
+                    
+                    <!-- Target Companies -->
+                    <div class="future-card rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-building text-2xl text-orange-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">목표 기업</h2>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- POSCO -->
+                            <div class="target-company rounded-lg p-4">
+                                <div class="company-logo w-12 h-12 rounded-lg flex items-center justify-center mb-3 mx-auto">
+                                    <i class="fas fa-industry text-2xl text-orange-400"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-white text-center mb-2">POSCO</h3>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 제철소 안전관리</li>
+                                    <li>• 스마트팩토리</li>
+                                    <li>• 산업안전 시스템</li>
+                                </ul>
+                                <div class="mt-3 flex items-center justify-center space-x-2">
+                                    <span class="text-xs text-green-400">적합도</span>
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Korea Airports Corporation -->
+                            <div class="target-company rounded-lg p-4">
+                                <div class="company-logo w-12 h-12 rounded-lg flex items-center justify-center mb-3 mx-auto">
+                                    <i class="fas fa-plane text-2xl text-blue-400"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-white text-center mb-2">한국공항공사</h3>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 공항 소방안전</li>
+                                    <li>• 항공 보안시스템</li>
+                                    <li>• 비상대응 체계</li>
+                                </ul>
+                                <div class="mt-3 flex items-center justify-center space-x-2">
+                                    <span class="text-xs text-blue-400">적합도</span>
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Other Organizations -->
+                            <div class="target-company rounded-lg p-4">
+                                <div class="company-logo w-12 h-12 rounded-lg flex items-center justify-center mb-3 mx-auto">
+                                    <i class="fas fa-landmark text-2xl text-purple-400"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-white text-center mb-2">기타 공기업</h3>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 한국전력공사</li>
+                                    <li>• 한국가스공사</li>
+                                    <li>• 안전관련 공단</li>
+                                </ul>
+                                <div class="mt-3 flex items-center justify-center space-x-2">
+                                    <span class="text-xs text-purple-400">관심도</span>
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Timeline -->
+                    <div class="future-card rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-calendar-check text-2xl text-green-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">실행 계획</h2>
+                        </div>
+
+                        <div class="space-y-4 relative">
+                            <div class="timeline-line"></div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-green-300 mb-1">자격증 취득</h4>
+                                <p class="text-sm text-gray-400">소방안전기사, 위험물기사</p>
+                                <span class="text-xs text-blue-400">2024 Q4</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-yellow-300 mb-1">포트폴리오 완성</h4>
+                                <p class="text-sm text-gray-400">프로젝트 문서화 및 발표</p>
+                                <span class="text-xs text-blue-400">2025 Q1</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-orange-300 mb-1">공기업 지원</h4>
+                                <p class="text-sm text-gray-400">POSCO, 한국공항공사</p>
+                                <span class="text-xs text-blue-400">2025 Q2</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-purple-300 mb-1">전문성 강화</h4>
+                                <p class="text-sm text-gray-400">현장 경험 및 추가 기술</p>
+                                <span class="text-xs text-blue-400">2025~</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Quote -->
+            <div class="absolute bottom-8 left-12 right-12">
+                <div class="text-center">
+                    <blockquote class="text-lg text-gray-400 italic">
+                        "Safety is not just about preventing accidents, 
+                        <span class="text-green-400 font-semibold">it's about creating a future where technology protects life</span>"
+                    </blockquote>
+                    <p class="text-sm text-gray-500 mt-2">- 박해진의 안전 철학</p>
+                </div>
+            </div>
+
+            <!-- Code decoration -->
+            <div class="absolute top-8 right-8 text-xs text-gray-600 mono-font">
+                <span class="text-gray-500">/* 미래를 향한 여정 */</span><br>
+                <span class="text-blue-400">const</span> <span class="text-yellow-400">future</span> = {<br>
+                &nbsp;&nbsp;<span class="text-orange-400">vision</span>: <span class="text-green-400">'Smart Safety Expert'</span>,<br>
+                &nbsp;&nbsp;<span class="text-orange-400">goal</span>: <span class="text-green-400">'Save Lives with Tech'</span><br>
+                };
+            </div>
+
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관심 분야 및 취미</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2128 100%);
+        }
+        .mono-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #58a6ff, #7c3aed, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .interest-card {
+            background: linear-gradient(135deg, #21262d, #30363d);
+            border: 1px solid #373e47;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+        .interest-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(88, 166, 255, 0.15);
+        }
+        .quantum-section {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-left: 4px solid #e74c3c;
+        }
+        .japan-section {
+            background: linear-gradient(135deg, #2d1b69, #11998e);
+            border-left: 4px solid #f39c12;
+        }
+        .content-section {
+            background: linear-gradient(135deg, #8e2de2, #4a00e0);
+            border-left: 4px solid #00d4aa;
+        }
+        .floating-atom {
+            animation: floatAtom 6s ease-in-out infinite;
+        }
+        @keyframes floatAtom {
+            0%, 100% { transform: rotate(0deg) translateY(0px); }
+            25% { transform: rotate(90deg) translateY(-8px); }
+            50% { transform: rotate(180deg) translateY(0px); }
+            75% { transform: rotate(270deg) translateY(-8px); }
+        }
+        .wave-animation {
+            animation: wave 3s ease-in-out infinite;
+        }
+        @keyframes wave {
+            0%, 100% { transform: scaleY(1); }
+            50% { transform: scaleY(1.2); }
+        }
+        .quantum-equation {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            border: 1px solid #334155;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .scientist-tag {
+            background: linear-gradient(135deg, #374151, #4b5563);
+            border: 1px solid #6b7280;
+            transition: all 0.2s ease;
+        }
+        .scientist-tag:hover {
+            border-color: #e74c3c;
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+        }
+        .japan-flag {
+            background: linear-gradient(45deg, #ffffff 50%, #ff0000 50%);
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: rotate 4s linear infinite;
+        }
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .youtube-glow {
+            animation: youtubeGlow 2s ease-in-out infinite alternate;
+        }
+        @keyframes youtubeGlow {
+            from { box-shadow: 0 0 15px rgba(255, 0, 0, 0.3); }
+            to { box-shadow: 0 0 25px rgba(255, 0, 0, 0.6); }
+        }
+        .particle-bg {
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
+        }
+        .skill-meter {
+            background: linear-gradient(90deg, #8e2de2, #4a00e0);
+            height: 4px;
+            border-radius: 2px;
+            animation: skillGrow 2s ease-out forwards;
+        }
+        @keyframes skillGrow {
+            from { width: 0%; }
+            to { width: var(--skill-level); }
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+    <div class="w-full" style="width: 1280px; min-height: 720px;">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 particle-bg"></div>
+        
+        <!-- Main Container -->
+        <div class="relative min-h-screen p-12 text-white">
+            
+            <!-- Header -->
+            <div class="mb-8">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-heart text-4xl text-pink-400 mr-4 wave-animation"></i>
+                    <h1 class="text-5xl font-bold gradient-text">관심 분야 및 취미</h1>
+                    <div class="ml-auto flex items-center space-x-3">
+                        <div class="floating-atom">
+                            <i class="fas fa-atom text-2xl text-red-400"></i>
+                        </div>
+                        <div class="japan-flag"></div>
+                        <i class="fab fa-youtube text-2xl text-red-500 youtube-glow"></i>
+                    </div>
+                </div>
+                <div class="h-1 w-32 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded"></div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="grid grid-cols-12 gap-8 h-full">
+                
+                <!-- Left Section - Quantum Physics -->
+                <div class="col-span-7 space-y-6">
+                    <div class="quantum-section rounded-xl p-6 h-full">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-atom text-3xl text-red-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">양자역학 탐구</h2>
+                            <span class="ml-auto text-xs text-gray-400 mono-font">quantum.physics</span>
+                        </div>
+
+                        <!-- Scientists Section -->
+                        <div class="mb-8">
+                            <h3 class="text-lg font-semibold text-red-300 mb-4">양자역학의 아버지들</h3>
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="scientist-tag rounded-lg p-3 text-center">
+                                    <i class="fas fa-user-graduate text-blue-400 mb-2"></i>
+                                    <p class="text-sm font-semibold">슈뢰딩거</p>
+                                    <p class="text-xs text-gray-400">파동방정식</p>
+                                </div>
+                                <div class="scientist-tag rounded-lg p-3 text-center">
+                                    <i class="fas fa-microscope text-green-400 mb-2"></i>
+                                    <p class="text-sm font-semibold">하이젠베르크</p>
+                                    <p class="text-xs text-gray-400">불확정성 원리</p>
+                                </div>
+                                <div class="scientist-tag rounded-lg p-3 text-center">
+                                    <i class="fas fa-eye text-purple-400 mb-2"></i>
+                                    <p class="text-sm font-semibold">보어</p>
+                                    <p class="text-xs text-gray-400">상호보완성</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Double Slit Experiment -->
+                        <div class="mb-8">
+                            <h3 class="text-lg font-semibold text-yellow-300 mb-4">이중슬릿 실험</h3>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <div class="grid grid-cols-3 gap-4 text-center">
+                                    <div>
+                                        <i class="fas fa-wave-square text-2xl text-blue-400 mb-2"></i>
+                                        <p class="text-sm text-blue-300">파동성</p>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-eye text-2xl text-yellow-400 mb-2"></i>
+                                        <p class="text-sm text-yellow-300">관찰자 효과</p>
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-dice text-2xl text-green-400 mb-2"></i>
+                                        <p class="text-sm text-green-300">확률 해석</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quantum Equation -->
+                        <div class="mb-8">
+                            <h3 class="text-lg font-semibold text-cyan-300 mb-4">수학적 표현</h3>
+                            <div class="quantum-equation rounded-lg p-4">
+                                <div class="text-sm text-cyan-400 mb-2">슈뢰딩거 방정식:</div>
+                                <div class="text-lg text-white mono-font">
+                                    iℏ ∂ψ/∂t = Ĥψ
+                                </div>
+                                <div class="text-xs text-gray-400 mt-2">
+                                    ψ = 파동함수, Ĥ = 해밀토니안 연산자
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Micro vs Macro -->
+                        <div class="mb-6">
+                            <h3 class="text-lg font-semibold text-orange-300 mb-4">미시세계 vs 거시세계</h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-gray-800 rounded-lg p-3">
+                                    <div class="flex items-center mb-2">
+                                        <i class="fas fa-atom text-blue-400 mr-2"></i>
+                                        <span class="font-semibold text-blue-300">미시세계</span>
+                                    </div>
+                                    <ul class="text-xs space-y-1 text-gray-300">
+                                        <li>• 양자 법칙 적용</li>
+                                        <li>• 확률적 현상</li>
+                                        <li>• 관찰자 의존성</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-gray-800 rounded-lg p-3">
+                                    <div class="flex items-center mb-2">
+                                        <i class="fas fa-globe text-green-400 mr-2"></i>
+                                        <span class="font-semibold text-green-300">거시세계</span>
+                                    </div>
+                                    <ul class="text-xs space-y-1 text-gray-300">
+                                        <li>• 고전 물리학</li>
+                                        <li>• 결정론적 현상</li>
+                                        <li>• 확장 가능성?</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quantum Computer -->
+                        <div class="bg-gray-800 rounded-lg p-4">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-server text-purple-400 mr-3"></i>
+                                <span class="font-semibold text-purple-300">양자컴퓨터</span>
+                            </div>
+                            <div class="text-sm text-gray-300">
+                                <p class="mb-2">🤔 이론뿐 아니라 현실적으로 존재하는가?</p>
+                                <p>⚙️ 어떻게 작동하는가?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Section - Japan & YouTube -->
+                <div class="col-span-5 space-y-6">
+                    
+                    <!-- Japan Culture -->
+                    <div class="japan-section rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-torii-gate text-3xl text-orange-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">일본 문화 & 여행</h2>
+                        </div>
+
+                        <!-- Music Interest -->
+                        <div class="mb-6">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-music text-xl text-pink-400 mr-3"></i>
+                                <h3 class="text-lg font-semibold text-pink-300">음악</h3>
+                            </div>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-headphones text-blue-400 mr-3"></i>
+                                    <div>
+                                        <p class="font-semibold text-white">투명 엘레지</p>
+                                        <p class="text-xs text-gray-400">일본 음악 감상</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Travel Planning -->
+                        <div class="mb-6">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-plane text-xl text-cyan-400 mr-3"></i>
+                                <h3 class="text-lg font-semibold text-cyan-300">여행 계획</h3>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="bg-gray-800 rounded-lg p-3">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-300">항공권 정보</span>
+                                        <i class="fas fa-plane text-blue-400"></i>
+                                    </div>
+                                </div>
+                                <div class="bg-gray-800 rounded-lg p-3">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-300">페리 정보</span>
+                                        <i class="fas fa-ship text-green-400"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- YouTube Content Creation -->
+                    <div class="content-section rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fab fa-youtube text-3xl text-red-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">콘텐츠 창작</h2>
+                        </div>
+
+                        <!-- Streaming -->
+                        <div class="mb-6">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-video text-xl text-purple-400 mr-3"></i>
+                                <h3 class="text-lg font-semibold text-purple-300">스트리밍</h3>
+                            </div>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mr-3">
+                                        <span class="text-xs font-bold">R</span>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-white">ralo</p>
+                                        <p class="text-xs text-gray-400">스트리머 활동</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Skills -->
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm text-gray-300">영상 편집</span>
+                                    <span class="text-xs text-purple-400">Creative</span>
+                                </div>
+                                <div class="bg-gray-700 rounded-full h-2">
+                                    <div class="skill-meter rounded-full" style="--skill-level: 75%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm text-gray-300">자기 홍보</span>
+                                    <span class="text-xs text-cyan-400">Marketing</span>
+                                </div>
+                                <div class="bg-gray-700 rounded-full h-2">
+                                    <div class="skill-meter rounded-full" style="--skill-level: 70%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm text-gray-300">콘텐츠 제작</span>
+                                    <span class="text-xs text-green-400">Production</span>
+                                </div>
+                                <div class="bg-gray-700 rounded-full h-2">
+                                    <div class="skill-meter rounded-full" style="--skill-level: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Platform Icons -->
+                        <div class="mt-6 flex justify-center space-x-4">
+                            <i class="fab fa-youtube text-2xl text-red-400 opacity-60"></i>
+                            <i class="fab fa-twitch text-2xl text-purple-400 opacity-60"></i>
+                            <i class="fas fa-video text-2xl text-blue-400 opacity-60"></i>
+                            <i class="fas fa-edit text-2xl text-green-400 opacity-60"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code decoration -->
+            <div class="absolute top-8 right-8 text-xs text-gray-600 mono-font">
+                <span class="text-gray-500">/* 다양한 관심사 */</span><br>
+                <span class="text-blue-400">const</span> <span class="text-yellow-400">interests</span> = [<br>
+                &nbsp;&nbsp;<span class="text-orange-400">'quantum_physics'</span>,<br>
+                &nbsp;&nbsp;<span class="text-orange-400">'japan_culture'</span>,<br>
+                &nbsp;&nbsp;<span class="text-orange-400">'content_creation'</span><br>
+                ];
+            </div>
+
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미래 비전 및 목표</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2128 100%);
+        }
+        .mono-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #58a6ff, #7c3aed, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .future-card {
+            background: linear-gradient(135deg, #21262d, #30363d);
+            border: 1px solid #373e47;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+        .future-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(88, 166, 255, 0.2);
+        }
+        .vision-section {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-left: 4px solid #10b981;
+        }
+        .career-path {
+            background: linear-gradient(135deg, #7c2d12, #ea580c);
+            border-left: 4px solid #f59e0b;
+        }
+        .target-company {
+            background: linear-gradient(135deg, #1e3a8a, #3730a3);
+            border: 1px solid #6366f1;
+            transition: all 0.3s ease;
+        }
+        .target-company:hover {
+            border-color: #8b5cf6;
+            background: linear-gradient(135deg, #3730a3, #5b21b6);
+            transform: scale(1.05);
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.5);
+        }
+        .timeline-line {
+            position: absolute;
+            left: 5px;
+            top: 1.5rem;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #10b981, transparent);
+        }
+        .skill-roadmap {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            border: 1px solid #334155;
+        }
+        .goal-metric {
+            background: linear-gradient(135deg, #374151, #4b5563);
+            border: 1px solid #6b7280;
+            transition: all 0.2s ease;
+        }
+        .goal-metric:hover {
+            border-color: #10b981;
+            background: linear-gradient(135deg, #065f46, #047857);
+        }
+        .floating-rocket {
+            animation: floatRocket 4s ease-in-out infinite;
+        }
+        @keyframes floatRocket {
+            0%, 100% { transform: translateY(0px) rotate(-5deg); }
+            25% { transform: translateY(-12px) rotate(5deg); }
+            75% { transform: translateY(-6px) rotate(-2deg); }
+        }
+        .progress-glow {
+            animation: progressGlow 3s ease-in-out infinite alternate;
+        }
+        @keyframes progressGlow {
+            from { box-shadow: 0 0 20px rgba(16, 185, 129, 0.3); }
+            to { box-shadow: 0 0 35px rgba(16, 185, 129, 0.7); }
+        }
+        .company-logo {
+            background: linear-gradient(135deg, #1f2937, #374151);
+            border: 2px solid #4b5563;
+            transition: all 0.3s ease;
+        }
+        .company-logo:hover {
+            border-color: #f59e0b;
+            background: linear-gradient(135deg, #92400e, #d97706);
+        }
+        .vision-statement {
+            background: linear-gradient(135deg, #065f46, #047857);
+            border: 1px solid #10b981;
+            position: relative;
+            overflow: hidden;
+        }
+        .vision-statement::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            animation: shine 3s infinite;
+        }
+        @keyframes shine {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+        .growth-arrow {
+            animation: growthMove 2s ease-in-out infinite;
+        }
+        @keyframes growthMove {
+            0%, 100% { transform: translateX(0px); }
+            50% { transform: translateX(8px); }
+        }
+        .tech-constellation {
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(245, 158, 11, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+        }
+        .career-level {
+            background: linear-gradient(90deg, #059669, #10b981);
+            height: 6px;
+            border-radius: 3px;
+            animation: levelGrow 2s ease-out forwards;
+        }
+        @keyframes levelGrow {
+            from { width: 0%; }
+            to { width: var(--level); }
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+    <div class="w-full" style="width: 1280px; min-height: 720px;">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 tech-constellation"></div>
+        
+        <!-- Main Container -->
+        <div class="relative min-h-screen p-12 text-white">
+            
+            <!-- Header -->
+            <div class="mb-8">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-rocket text-4xl text-green-400 mr-4 floating-rocket"></i>
+                    <h1 class="text-5xl font-bold gradient-text">미래 비전 및 목표</h1>
+                    <div class="ml-auto flex items-center space-x-3">
+                        <div class="w-3 h-3 bg-green-400 rounded-full progress-glow"></div>
+                        <span class="text-sm text-gray-400 mono-font">VISION.2030</span>
+                    </div>
+                </div>
+                <div class="h-1 w-36 bg-gradient-to-r from-green-500 via-yellow-500 to-purple-500 rounded"></div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="grid grid-cols-12 gap-8 h-full">
+                
+                <!-- Left Section - Vision & Career Path -->
+                <div class="col-span-8 space-y-6">
+                    
+                    <!-- Vision Statement -->
+                    <div class="vision-statement rounded-xl p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-eye text-2xl text-green-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">핵심 비전</h2>
+                        </div>
+                        <div class="text-lg text-white leading-relaxed">
+                            <span class="text-green-300 font-semibold">기술을 통해 사람의 생명을 보호하고</span>, 
+                            예측 가능한 위험 요소를 사전에 제어할 수 있는 
+                            <span class="text-yellow-300 font-semibold">스마트 안전 시스템 전문가</span>로 성장
+                        </div>
+                    </div>
+
+                    <!-- Career Development Path -->
+                    <div class="career-path rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-route text-2xl text-orange-400 mr-4"></i>
+                            <h2 class="text-2xl font-bold text-white">커리어 발전 로드맵</h2>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-6">
+                            <!-- Current Stage -->
+                            <div class="relative">
+                                <div class="future-card rounded-lg p-4">
+                                    <div class="text-center mb-3">
+                                        <i class="fas fa-graduation-cap text-3xl text-blue-400 mb-2"></i>
+                                        <h3 class="font-bold text-blue-300">현재</h3>
+                                        <p class="text-xs text-gray-400">2024</p>
+                                    </div>
+                                    <ul class="text-sm space-y-1 text-gray-300">
+                                        <li>• 소방방재공학 전공</li>
+                                        <li>• PLC/AI 기술 습득</li>
+                                        <li>• 연구 프로젝트 완료</li>
+                                    </ul>
+                                    <div class="mt-3">
+                                        <div class="text-xs text-gray-400 mb-1">진행률</div>
+                                        <div class="bg-gray-700 rounded-full h-2">
+                                            <div class="career-level rounded-full" style="--level: 75%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute -right-3 top-1/2 transform -translate-y-1/2">
+                                    <i class="fas fa-arrow-right text-xl text-green-400 growth-arrow"></i>
+                                </div>
+                            </div>
+
+                            <!-- Short Term -->
+                            <div class="relative">
+                                <div class="future-card rounded-lg p-4">
+                                    <div class="text-center mb-3">
+                                        <i class="fas fa-briefcase text-3xl text-green-400 mb-2"></i>
+                                        <h3 class="font-bold text-green-300">단기목표</h3>
+                                        <p class="text-xs text-gray-400">2025-2026</p>
+                                    </div>
+                                    <ul class="text-sm space-y-1 text-gray-300">
+                                        <li>• 안전 관련 자격증</li>
+                                        <li>• 공기업 입사</li>
+                                        <li>• 현장 경험 축적</li>
+                                    </ul>
+                                    <div class="mt-3">
+                                        <div class="text-xs text-gray-400 mb-1">준비도</div>
+                                        <div class="bg-gray-700 rounded-full h-2">
+                                            <div class="career-level rounded-full" style="--level: 60%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute -right-3 top-1/2 transform -translate-y-1/2">
+                                    <i class="fas fa-arrow-right text-xl text-green-400 growth-arrow"></i>
+                                </div>
+                            </div>
+
+                            <!-- Long Term -->
+                            <div class="future-card rounded-lg p-4">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-star text-3xl text-purple-400 mb-2"></i>
+                                    <h3 class="font-bold text-purple-300">장기목표</h3>
+                                    <p class="text-xs text-gray-400">2027-2030</p>
+                                </div>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 안전시스템 전문가</li>
+                                    <li>• 기술 리더십</li>
+                                    <li>• 혁신 프로젝트 주도</li>
+                                </ul>
+                                <div class="mt-3">
+                                    <div class="text-xs text-gray-400 mb-1">비전</div>
+                                    <div class="bg-gray-700 rounded-full h-2">
+                                        <div class="career-level rounded-full" style="--level: 100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Development Roadmap -->
+                    <div class="skill-roadmap rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-layer-group text-2xl text-cyan-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">기술 발전 계획</h2>
+                        </div>
+
+                        <div class="grid grid-cols-4 gap-4">
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-shield-alt text-2xl text-red-400 mb-2"></i>
+                                <h4 class="font-semibold text-red-300 mb-1">안전공학</h4>
+                                <p class="text-xs text-gray-400">화재예방 · 위험평가</p>
+                            </div>
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-robot text-2xl text-blue-400 mb-2"></i>
+                                <h4 class="font-semibold text-blue-300 mb-1">자동화</h4>
+                                <p class="text-xs text-gray-400">PLC · IoT · 센서</p>
+                            </div>
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-brain text-2xl text-purple-400 mb-2"></i>
+                                <h4 class="font-semibold text-purple-300 mb-1">AI 기술</h4>
+                                <p class="text-xs text-gray-400">머신러닝 · 예측분석</p>
+                            </div>
+                            <div class="goal-metric rounded-lg p-4 text-center">
+                                <i class="fas fa-users text-2xl text-green-400 mb-2"></i>
+                                <h4 class="font-semibold text-green-300 mb-1">리더십</h4>
+                                <p class="text-xs text-gray-400">팀관리 · 프로젝트</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Section - Target Companies -->
+                <div class="col-span-4 space-y-6">
+                    
+                    <!-- Target Companies -->
+                    <div class="future-card rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-building text-2xl text-orange-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">목표 기업</h2>
+                        </div>
+
+                        <div class="space-y-4">
+                            <!-- POSCO -->
+                            <div class="target-company rounded-lg p-4">
+                                <div class="company-logo w-12 h-12 rounded-lg flex items-center justify-center mb-3 mx-auto">
+                                    <i class="fas fa-industry text-2xl text-orange-400"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-white text-center mb-2">POSCO</h3>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 제철소 안전관리</li>
+                                    <li>• 스마트팩토리</li>
+                                    <li>• 산업안전 시스템</li>
+                                </ul>
+                                <div class="mt-3 flex items-center justify-center space-x-2">
+                                    <span class="text-xs text-green-400">적합도</span>
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Korea Airports Corporation -->
+                            <div class="target-company rounded-lg p-4">
+                                <div class="company-logo w-12 h-12 rounded-lg flex items-center justify-center mb-3 mx-auto">
+                                    <i class="fas fa-plane text-2xl text-blue-400"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-white text-center mb-2">한국공항공사</h3>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 공항 소방안전</li>
+                                    <li>• 항공 보안시스템</li>
+                                    <li>• 비상대응 체계</li>
+                                </ul>
+                                <div class="mt-3 flex items-center justify-center space-x-2">
+                                    <span class="text-xs text-blue-400">적합도</span>
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Other Organizations -->
+                            <div class="target-company rounded-lg p-4">
+                                <div class="company-logo w-12 h-12 rounded-lg flex items-center justify-center mb-3 mx-auto">
+                                    <i class="fas fa-landmark text-2xl text-purple-400"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-white text-center mb-2">기타 공기업</h3>
+                                <ul class="text-sm space-y-1 text-gray-300">
+                                    <li>• 한국전력공사</li>
+                                    <li>• 한국가스공사</li>
+                                    <li>• 안전관련 공단</li>
+                                </ul>
+                                <div class="mt-3 flex items-center justify-center space-x-2">
+                                    <span class="text-xs text-purple-400">관심도</span>
+                                    <div class="flex space-x-1">
+                                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                                        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Timeline -->
+                    <div class="future-card rounded-xl p-6">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-calendar-check text-2xl text-green-400 mr-4"></i>
+                            <h2 class="text-xl font-bold text-white">실행 계획</h2>
+                        </div>
+
+                        <div class="space-y-4 relative">
+                            <div class="timeline-line"></div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-green-300 mb-1">자격증 취득</h4>
+                                <p class="text-sm text-gray-400">소방안전기사, 위험물기사</p>
+                                <span class="text-xs text-blue-400">2024 Q4</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-yellow-300 mb-1">포트폴리오 완성</h4>
+                                <p class="text-sm text-gray-400">프로젝트 문서화 및 발표</p>
+                                <span class="text-xs text-blue-400">2025 Q1</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-orange-300 mb-1">공기업 지원</h4>
+                                <p class="text-sm text-gray-400">POSCO, 한국공항공사</p>
+                                <span class="text-xs text-blue-400">2025 Q2</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4 class="font-semibold text-purple-300 mb-1">전문성 강화</h4>
+                                <p class="text-sm text-gray-400">현장 경험 및 추가 기술</p>
+                                <span class="text-xs text-blue-400">2025~</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Quote -->
+            <div class="absolute bottom-8 left-12 right-12">
+                <div class="text-center">
+                    <blockquote class="text-lg text-gray-400 italic">
+                        "Safety is not just about preventing accidents, 
+                        <span class="text-green-400 font-semibold">it's about creating a future where technology protects life</span>"
+                    </blockquote>
+                    <p class="text-sm text-gray-500 mt-2">- 박해진의 안전 철학</p>
+                </div>
+            </div>
+
+            <!-- Code decoration -->
+            <div class="absolute top-8 right-8 text-xs text-gray-600 mono-font">
+                <span class="text-gray-500">/* 미래를 향한 여정 */</span><br>
+                <span class="text-blue-400">const</span> <span class="text-yellow-400">future</span> = {<br>
+                &nbsp;&nbsp;<span class="text-orange-400">vision</span>: <span class="text-green-400">'Smart Safety Expert'</span>,<br>
+                &nbsp;&nbsp;<span class="text-orange-400">goal</span>: <span class="text-green-400">'Save Lives with Tech'</span><br>
+                };
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
